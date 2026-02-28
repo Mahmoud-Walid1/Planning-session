@@ -64,7 +64,7 @@ const scenarios = [
                 text: "تعديل النطاق: تتفقوا إنكم تخلصوا المنتج الأساسي اللي بيشتغل بس (حركة المواتير)، وتأجلوا الميزات الإضافية المعقدة لبعد الامتحانات.",
                 type: "correct",
                 resultTitle: "قرار ممتاز ✅",
-                resultText: "تفكير مدير مشروع محترف! حافظت على صحة الفريق النفسية، وضمنت تسليم أساسيات المشروع شغالة بكفاءة، وأجلت التحسينات لوقت الفراغ.",
+                resultText: "تفكير مدير مشروع فهمان! حافظت على صحة الفريق النفسية، وضمنت تسليم أساسيات المشروع شغالة بكفاءة، وأجلت التحسينات لوقت الفراغ.",
                 points: 20,
                 icon: "https://cdn.lordicon.com/dnmvmpfk.json",
                 iconColors: "primary:#10b981"
@@ -331,15 +331,9 @@ document.getElementById('next-btn').addEventListener('click', () => {
     currentScenarioIndex++;
 
     if (currentScenarioIndex < scenarios.length) {
-        // slight delay to let modal hide
-        setTimeout(() => {
-            renderScenario();
-        }, 300);
+        renderScenario();
     } else {
-        // End of Game
-        setTimeout(() => {
-            showEndScreen();
-        }, 300);
+        showEndScreen();
     }
 });
 
