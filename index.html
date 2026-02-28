@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning Session | Momentum</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Lordicon -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Decor (No gradients, flat green momentum color) -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <div id="welcome-screen" class="welcome-screen glass-panel">
+        <img src="https://i.postimg.cc/qMQNGc9X/g.png" alt="Momentum Logo" class="welcome-logo">
+        <h1 class="welcome-title">أكتيفيتي السيشن التانية</h1>
+        <h2 class="welcome-subtitle">Planning Session</h2>
+        <p class="welcome-text">
+            عادي جداً إنك تجرب أكتر من مرة وتشوف كل الحلول عشان تستفيد من كل السيناريوهات وتتعلم من الأخطاء.
+        </p>
+        <lord-icon src="https://cdn.lordicon.com/vduqgxqy.json" trigger="loop" colors="primary:#27ae60"
+            style="width:50px;height:50px; transform: rotate(90deg);" class="welcome-bounce-icon">
+        </lord-icon>
+        <button id="start-btn" class="primary-btn start-btn-custom">ابدأ 🚀</button>
+    </div>
+
+    <main class="game-container hidden" id="game-container">
+        <!-- Header: Score and Progress -->
+        <header class="game-header glass-panel">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="https://i.postimg.cc/qMQNGc9X/g.png" alt="Momentum Logo" class="logo-image">
+                </div>
+                <div class="stats">
+                    <div class="score-box">
+                        <span class="score-label">النقاط:</span>
+                        <span id="score" class="score-value">0</span>
+                    </div>
+                    <div class="progress-box">
+                        <span id="progress-text">السيناريو 1 من 6</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Game Area -->
+        <section class="scenario-section glass-panel">
+            <h2 id="scenario-title" class="scenario-title">العنوان</h2>
+            <div class="scenario-context">
+                <span id="scenario-text" class="typed-text"></span>
+            </div>
+
+            <div id="options-container" class="options-container">
+                <!-- Buttons will be injected here via JS -->
+            </div>
+        </section>
+
+        <!-- Result Modal -->
+        <div id="result-modal" class="modal-overlay hidden">
+            <div class="modal-content glass-panel">
+                <div class="icon-container" id="modal-icon">
+                    <!-- Lordicon injected here -->
+                </div>
+                <h2 id="modal-title" class="modal-title">النتيجة</h2>
+                <p id="modal-desc" class="modal-desc">تفاصيل النتيجة</p>
+                <div class="points-awarded" id="points-awarded"></div>
+                <button id="next-btn" class="primary-btn">التالي <lord-icon src="https://cdn.lordicon.com/vduqgxqy.json"
+                        trigger="hover" style="width:24px;height:24px" colors="primary:#ffffff"></lord-icon></button>
+            </div>
+        </div>
+
+        <!-- End Game Screen -->
+        <div id="end-screen" class="modal-overlay hidden">
+            <div class="modal-content glass-panel">
+                <div class="icon-container">
+                    <lord-icon src="https://cdn.lordicon.com/lupuorrc.json" trigger="loop"
+                        colors="primary:#4CAF50,secondary:#ffffff" style="width:150px;height:150px">
+                    </lord-icon>
+                </div>
+                <h2 class="modal-title">نهاية اللعبة!</h2>
+                <p class="modal-desc" id="final-score-text"></p>
+                <button id="restart-btn" class="primary-btn">العب مرة أخرى <lord-icon
+                        src="https://cdn.lordicon.com/rsnxqjld.json" trigger="hover" style="width:24px;height:24px"
+                        colors="primary:#ffffff"></lord-icon></button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
