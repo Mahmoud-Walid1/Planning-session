@@ -10,7 +10,7 @@ const scenarios = [
                 resultTitle: "قرار خاطئ ❌",
                 resultText: "الهيكل المبدئي طلع أصغر بكثير من حجم البطاريات والمواتير المطلوبة، واضطررتم لإعادة التصميم والطباعة من الصفر. خسرتم وقتاً وميزانية!",
                 points: -10,
-                icon: "https://cdn.lordicon.com/tdrtiskw.json",
+                icon: "https://cdn.lordicon.com/nqtddedc.json",
                 iconColors: "primary:#ef4444"
             },
             {
@@ -20,7 +20,7 @@ const scenarios = [
                 resultTitle: "قرار مقبول ⚠️",
                 resultText: "حللت مشكلة التنسيق، لكنك أضعت أسبوعاً كاملاً من وقت التنفيذ الفعلي في البحث المنفصل، والجدول الزمني للمشروع تأخر.",
                 points: 5,
-                icon: "https://cdn.lordicon.com/leidswrc.json",
+                icon: "https://cdn.lordicon.com/rslnizbt.json",
                 iconColors: "primary:#f59e0b"
             },
             {
@@ -30,7 +30,7 @@ const scenarios = [
                 resultTitle: "قرار ممتاز ✅",
                 resultText: "أحسنت! شغلت الفريقين بالتوازي بناءً على خطة واضحة ومدروسة. كسبت وقتاً ووفرت ميزانية المشروع من الهدر المادي.",
                 points: 20,
-                icon: "https://cdn.lordicon.com/guqkthkk.json",
+                icon: "https://cdn.lordicon.com/dnmvmpfk.json",
                 iconColors: "primary:#10b981"
             }
         ]
@@ -46,7 +46,7 @@ const scenarios = [
                 resultTitle: "قرار خاطئ ❌",
                 resultText: "أشخاص غير مؤهلين استلموا برمجة معقدة. النتيجة: تعطل النظام، انخفاض معنويات الميكانيكال والهارد، واستياء قسم السوفت لتدخل غير المتخصصين.",
                 points: -10,
-                icon: "https://cdn.lordicon.com/tdrtiskw.json",
+                icon: "https://cdn.lordicon.com/nqtddedc.json",
                 iconColors: "primary:#ef4444"
             },
             {
@@ -56,7 +56,7 @@ const scenarios = [
                 resultTitle: "قرار مقبول ⚠️",
                 resultText: "وفرت الوقت، لكن الضغط النفسي استمر، وجودة العمل انخفضت بشكل ملحوظ بسبب التشتت بين المذاكرة وتنفيذ المشروع.",
                 points: 5,
-                icon: "https://cdn.lordicon.com/leidswrc.json",
+                icon: "https://cdn.lordicon.com/rslnizbt.json",
                 iconColors: "primary:#f59e0b"
             },
             {
@@ -66,7 +66,7 @@ const scenarios = [
                 resultTitle: "قرار ممتاز ✅",
                 resultText: "تفكير مدير مشروع محترف! حافظت على صحة الفريق النفسية، ضمنت تسليم أساسيات المشروع تعمل بكفاءة، وأجلت التحسينات لوقت الفراغ.",
                 points: 20,
-                icon: "https://cdn.lordicon.com/guqkthkk.json",
+                icon: "https://cdn.lordicon.com/dnmvmpfk.json",
                 iconColors: "primary:#10b981"
             }
         ]
@@ -82,7 +82,7 @@ const scenarios = [
                 resultTitle: "قرار خاطئ ❌",
                 resultText: "الكلور أتلف بعض المستشعرات الدقيقة، ولأن العزل لم يكن مكتملاً، تسربت المياه للدوائر ليحدث التماس كهربائي. بيئة الاختبار كانت غير مناسبة والتدرج غائب.",
                 points: -20,
-                icon: "https://cdn.lordicon.com/tdrtiskw.json",
+                icon: "https://cdn.lordicon.com/nqtddedc.json",
                 iconColors: "primary:#ef4444"
             },
             {
@@ -92,7 +92,7 @@ const scenarios = [
                 resultTitle: "قرار مقبول ⚠️",
                 resultText: "المواتير كانت تعمل، لكنكم نسيتم اختبار الطفو والتوازن في حوض صغير أولاً. المركب فقدت توازنها في البحيرة وتسربت المياه للدوائر.",
                 points: 5,
-                icon: "https://cdn.lordicon.com/leidswrc.json",
+                icon: "https://cdn.lordicon.com/rslnizbt.json",
                 iconColors: "primary:#f59e0b"
             },
             {
@@ -102,7 +102,7 @@ const scenarios = [
                 resultTitle: "قرار ممتاز ✅",
                 resultText: "إدارة مخاطر عبقرية وعقلية هندسية ممتازة. توقعت أسوأ السيناريوهات المحتملة ووضعت خطة محكمة لتجنب الخسائر.",
                 points: 20,
-                icon: "https://cdn.lordicon.com/guqkthkk.json",
+                icon: "https://cdn.lordicon.com/dnmvmpfk.json",
                 iconColors: "primary:#10b981"
             }
         ]
@@ -118,7 +118,7 @@ const scenarios = [
                 resultTitle: "قرار خاطئ ❌",
                 resultText: "السيليكون الرخيص لم يتحمل ضغط المياه وحركة المواتير فتسربت المياه للداخل، واحترقت المستشعرات القوية بالكامل. التوفير في الأساسيات يدمر المشروع كله.",
                 points: -10,
-                icon: "https://cdn.lordicon.com/tdrtiskw.json",
+                icon: "https://cdn.lordicon.com/nqtddedc.json",
                 iconColors: "primary:#ef4444"
             },
             {
@@ -128,7 +128,7 @@ const scenarios = [
                 resultTitle: "قرار مقبول ⚠️",
                 resultText: "التفكير في التمويل قرار جيد في حالات العجز، لكن إيقاف العمل الأساسي لانتظار التمويل عطل خطة المشروع وجعلكم تتأخرون عن موعد التسليم النهائي.",
                 points: 5,
-                icon: "https://cdn.lordicon.com/leidswrc.json",
+                icon: "https://cdn.lordicon.com/rslnizbt.json",
                 iconColors: "primary:#f59e0b"
             },
             {
@@ -138,7 +138,7 @@ const scenarios = [
                 resultTitle: "قرار ممتاز ✅",
                 resultText: "قرار ممتاز! استطعت التمييز بوضوح بين ما لا غنى عنه لكي ينجح المشروع أساساً، وما يُعد من الكماليات التي يمكن التضحية بها.",
                 points: 20,
-                icon: "https://cdn.lordicon.com/guqkthkk.json",
+                icon: "https://cdn.lordicon.com/dnmvmpfk.json",
                 iconColors: "primary:#10b981"
             }
         ]
@@ -154,7 +154,7 @@ const scenarios = [
                 resultTitle: "قرار خاطئ ❌",
                 resultText: "الديمقراطية قرار لا غبار عليه، لكن هذا فخ تضخم النطاق! الميزانية لم تكفِ، التعديل استغرق وقتاً طويلاً، ولم تنتهوا من الأساسيات ففشل المشروع.",
                 points: -10,
-                icon: "https://cdn.lordicon.com/tdrtiskw.json",
+                icon: "https://cdn.lordicon.com/nqtddedc.json",
                 iconColors: "primary:#ef4444"
             },
             {
@@ -164,7 +164,7 @@ const scenarios = [
                 resultTitle: "قرار مقبول ⚠️",
                 resultText: "تجنبت الخسارة المباشرة، لكنك وضعت ضغطاً غير عادل واستنزافاً لطاقة عضو واحد من الفريق، مما قد يتسبب في إرهاقه ويؤثر على إنجاز مهامه الأساسية.",
                 points: 5,
-                icon: "https://cdn.lordicon.com/leidswrc.json",
+                icon: "https://cdn.lordicon.com/rslnizbt.json",
                 iconColors: "primary:#f59e0b"
             },
             {
@@ -174,7 +174,7 @@ const scenarios = [
                 resultTitle: "قرار ممتاز ✅",
                 resultText: "إدارة نطاق مشروع ممتازة! حافظت على حماس وإبداع الفريق، التزمت بالموعد المحدد، وجعلت التحديثات الإضافية تعتمد على إنجاز المهام الضرورية.",
                 points: 20,
-                icon: "https://cdn.lordicon.com/guqkthkk.json",
+                icon: "https://cdn.lordicon.com/dnmvmpfk.json",
                 iconColors: "primary:#10b981"
             }
         ]
@@ -190,7 +190,7 @@ const scenarios = [
                 resultTitle: "قرار خاطئ ❌",
                 resultText: "أهدرت وقت مهندس السوفت في إنتاج مقاطع فيديو بدلاً من الأكواد، وباقي الفريق غير مؤهل هندسياً لفهم التفاصيل المعقدة. مجهود ضائع دون فائدة حقيقية!",
                 points: -10,
-                icon: "https://cdn.lordicon.com/tdrtiskw.json",
+                icon: "https://cdn.lordicon.com/nqtddedc.json",
                 iconColors: "primary:#ef4444"
             },
             {
@@ -200,7 +200,7 @@ const scenarios = [
                 resultTitle: "قرار مقبول ⚠️",
                 resultText: "هذا نهج فني ومتبع أحياناً، لكنك بذلك عطلت مهندس الميكانيكال عن مهامه الأساسية في التصنيع والتقفيل والمشروع أصبح مهدداً بالتأخير الزمني.",
                 points: 5,
-                icon: "https://cdn.lordicon.com/leidswrc.json",
+                icon: "https://cdn.lordicon.com/rslnizbt.json",
                 iconColors: "primary:#f59e0b"
             },
             {
@@ -210,7 +210,7 @@ const scenarios = [
                 resultTitle: "قرار ممتاز ✅",
                 resultText: "إدارة مخاطر وأفراد بمنتهى الاحترافية! ضمنت وجود توثيق دقيق يحمي من خطر ضياع المعرفة أو غياب الفرد المعني دون تضييع وقت باقي الفرق المنشغلة.",
                 points: 20,
-                icon: "https://cdn.lordicon.com/guqkthkk.json",
+                icon: "https://cdn.lordicon.com/dnmvmpfk.json",
                 iconColors: "primary:#10b981"
             }
         ]
@@ -277,7 +277,7 @@ function renderOptions(options) {
         btn.innerHTML = `
             <div class="option-icon">
                 <lord-icon 
-                    src="https://cdn.lordicon.com/vduqgxqy.json" 
+                    src="https://cdn.lordicon.com/whtfgdfm.json" 
                     trigger="hover" 
                     colors="primary:#27ae60" 
                     style="width:32px;height:32px; transform: scaleX(-1);">
